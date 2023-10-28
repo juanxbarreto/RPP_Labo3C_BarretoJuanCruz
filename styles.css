@@ -1,0 +1,93 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para las filas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para las celdas de encabezado */
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para las celdas de datos */
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para el encabezado de la tabla */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+/* Agregamos una clase CSS para ocultar columnas */
+.oculto {
+    display: none;
+}
+
+/* Agregamos una clase CSS para mantener un espacio para las columnas ocultas */
+.mantener-espacio {
+    visibility: hidden;
+}
+
+
+/* Estilo para los checkboxes */
+#Ocultar {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+label {
+    margin-right: 10px; /* Espacio entre etiqueta y combo box */
+    font-family: 'Arial';
+}
+
+/* Estilo para los elementos del formulario */
+form {
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px;
+}
+
+/* Estilo para los campos de etiqueta y entrada */
+label, input {
+    display: block; /* Hace que los elementos se muestren uno debajo del otro */
+    margin-bottom: 10px; /* Agrega espacio entre los elementos */
+    width: 100%; /* Aprovecha todo el ancho disponible */
+}
+
+/* Estilo para el botón */
+button {
+    display: block;
+    margin: 10px auto; /* Centra el botón en el formulario */
+}
+
+/* Estilo para los campos específicos de Héroe y Villano */
+#camposHeroe, #camposVillano {
+    display: none; /* Inicialmente ocultos */
+}
+
